@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+.struct-window {
+    margin: 20px;
+    padding: 15px;
+
+    border: 1px solid black;
+
+    width: 1000px;
+
+    display: flex;
+    justify-content: space-between;
+}
+.col-left {
+    padding: 6px;
+
+    border: 1px dashed darkblue;    
+    width: 480px;
+    min-height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#col-right {
+    padding: 6px;
+
+    border: 1px dashed darkblue;    
+    width: 480px;
+    min-height: 150px;
+    font-family: 'Courier New', Courier, monospace;
+}
